@@ -7,7 +7,7 @@ html, body {
 
 div.container {
 	width: 100%;
-	background-image: url('main_BG.jpg');
+	background-image: url('main_bg.jpg');
 	background-attachment: fixed;
 }
 
