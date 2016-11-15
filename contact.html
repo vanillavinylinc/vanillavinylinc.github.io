@@ -1,0 +1,119 @@
+<!--
+Project Name: Vanilla Vinyl Inc. Website
+Course Name: E-Business (NUMBER)
+Submitted to: Prof. Daniel Dubreil
+Submitted by: Jsajm Marie Quino
+Date of Submission: November 14, 2016
+
+REQUIREMENTS:
+1. 3 Images
+2. 1 Image with External Link
+3. 1 Text with External Link
+4. 2 Background Colors (Gray and White)
+5. 2 Text Colors (Gray and White)
+6. 5 Font Sizes (Please see CSS)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vanilla Vinyl Inc.</title>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	<style>
+	
+	article img {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+	}
+	
+	article img:hover {
+		opacity: 1;
+		filter: alpha(opacity=1);
+	}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	<!--Header Column-->
+	<header style="background: url('header5.jpg');background-repeat:no-repeat;background-size:cover;">
+	<a href="index.html"><img src="VanillaVinyl_WB.png" width="300px" height="300px" alt="Vanilla Vinyl Inc. Logo"></a>
+	<h1>We're Tuned In.</h1>
+	</header>
+	
+		<!--Sidebar Navigation-->
+		<nav style="background:  rgba(81,82,79,0.5);"> <!-- First background color -->
+		<ul> 
+			<!-- First text color -->
+			<li><a href="index.html" style="color: #fff;">Home</a></li>
+			<li><a href="works.html" style="color: #fff;">How it Works</a></li>
+			<li><a href="about.html" style="color: #fff;">Who We Are</a></li>
+			<li><a href="pricing.html" style="color: #fff;">Pricing</a></li>
+			<li><a href="contact.html" style="color: #fff;">Contact Us</a></li>
+		</ul>
+		</nav>
+		
+		<!--Main Content Column-->
+		<article style="background-color: rgba(255,255,255,0.5);"> <!-- Second background color -->
+			<h1 style="color: #51524f;">Contact Us</h1> <!-- Second text color -->
+			<p align="center" style="font-size: 24px;">We'd love to hear from you! For inquiries or requests about our products, pricing, shipping, policies, and customer service, please use the form below.</p>
+			
+			<p align="center" style="font-size: 24px;">For advertising and marketing inquiries, kindly <!--1 Text with External Link--><a href="mailto:advertising@vanillavinyl.com" target="_blank">email us</a>.</p>
+			
+			<form action="mailto:form@vanillavinyl.com" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="name" required><br><br>
+				Email Address:<br>
+				<input type="email" name="email" required><br><br>
+				What would you like to contact us about?<br>
+				<select name="subject_group" required>
+					<option value="pricing_inquiry">Pricing</option>
+					<option value="shipping_inquiry">Shipping</option>
+					<option value="shipping_inquiry">Customer Service</option>
+					<option value="feedback">Feedback</option>
+				</select><br><br>
+				<textarea name="message" rows="10" cols="30" required>Your message here.</textarea><br><br>
+				<input type="submit" value="Send">
+				</form>
+					
+		<h1 style="color: #51524f;">Head Office</h1>
+		<p align="center" style="font-size: 24px;">We are based in the beautiful city of <a href="http://ville.montreal.qc.ca/pls/portal/url/page/prt_vdm_en/accueil" target="_blank">Montr&eacute;al, Canada</a><!--1 Text Link-->. 
+		Our office includes a recording studio, a warehouse, where the vinyl records are created and stored with love. Come visit us!</p>
+		
+		<!--3 Images (Including External Links)-->
+		<table align="center" width="100%">
+			<tr>
+				<td style="margin:5px;text-align:center;"><a href="http://www.louer.com/6560l/" target="_blank"><img src="contact_photo1.jpg" alt="Office" width="222.5px" height="167.5px" style="opacity:1;"></td>
+				<td style="5px;margin:5px;text-align:center;"><a href="http://www.louer.com/6560l/" target="_blank"><img src="contact_photo2.jpg" alt="Office" width="222.5px" height="167.5px" style="opacity:1;"></td>
+				<td style="margin:5px;text-align:center;"><a href="http://www.louer.com/6560l/" target="_blank"><img src="contact_photo3.png" alt="Office" width="222.5px" height="167.5px" style="opacity:1;"></td>
+			</tr>
+		</table>
+		
+		<p align="center">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.0800732286098!2d-73.61515128460353!3d45.52859417910175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91973ba621687%3A0xf410189c35debe8c!2s6560+Avenue+de+l&#39;Esplanade%2C+Montr%C3%A9al%2C+QC+H2V+4L5!5e0!3m2!1sen!2sca!4v1479138563707" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</p>
+			
+		</article>
+		
+		<footer>
+			<div class="social">
+			<h3>Follow Us!</h3>
+			<ul> <!-- Images with external links -->
+				<li><a href="http://www.linkedin.ca" target="_blank"><img src="social_linkedin.png" style="width:40px;height:40px;" alt="LinkedIn Icon"></a></li> 
+				<li><a href="http://www.instagram.com" target="_blank"><img src="social_instagram.png" style="width:40px;height:40px;" alt="Instagram Icon"></a></li>
+				<li><a href="http://www.twitter.com" target="_blank"><img src="social_twitter.png" style="width:40px;height:40px;" alt="Twitter Icon"></a></li>
+				<li><a href="http://www.facebook.com" target="_blank"><img src="social_fb.png" style="width:40px;height:40px;" alt="Facebook Icon"></a></li>
+			</ul>
+			</div>
+		</footer>
+		
+		
+</body>
+
+</html>
+	
